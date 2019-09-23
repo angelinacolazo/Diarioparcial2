@@ -1,0 +1,19 @@
+﻿<Window x:Class="Login.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Correo electrónico:" HorizontalAlignment="Left" Margin="44,112,0,0" VerticalAlignment="Top" Width="151"/>
+        <Label Content="Contraseña:" HorizontalAlignment="Left" Margin="44,223,0,0" VerticalAlignment="Top" Width="112"/>
+        <TextBox x:Name="___TextBox1_" HorizontalAlignment="Left" Height="23" Margin="176,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270"/>
+        <TextBox x:Name="___TextBox2_" HorizontalAlignment="Left" Height="23" Margin="176,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270"/>
+        <Image HorizontalAlignment="Left" Height="226" Margin="538,112,0,0" VerticalAlignment="Top" Width="206"/>
+        <Button x:Name="___Button1___Iniciar__" Content="Iniciar&#x9;" HorizontalAlignment="Left" Height="60" Margin="84,303,0,0" VerticalAlignment="Top" Width="182" Click="___Button1___Iniciar___Click"/>
+        <Button x:Name="___Button2___Salir_" Content="Salir" HorizontalAlignment="Left" Height="60" Margin="320,303,0,0" VerticalAlignment="Top" Width="182" Click="___Button2___Salir__Click"/>
+
+    </Grid>
+</Window>
